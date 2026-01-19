@@ -35,3 +35,4 @@ A Python-based system to analyze sales data, enrich it with external API data fr
    ```bash
    pip install -r requirements.txt
    Round 1: updated documentation
+   Round 2: added project details
