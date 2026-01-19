@@ -1,3 +1,4 @@
+import os
 from datetime import datetime
 
 # --- PART 2: DATA PROCESSING ---
@@ -97,7 +98,7 @@ def find_peak_sales_day(transactions):
     peak_day = max(daily.items(), key=lambda x: x[1]['revenue'])
     return (peak_day[0], peak_day[1]['revenue'], peak_day[1]['transaction_count'])
 
-def low_performing_products(transactions, threshold=10): # Threshold modified to detect low performers in sample
+def low_performing_products(transactions, threshold=10):
     prod_stats = {}
     for t in transactions:
         name = t['ProductName']
@@ -117,6 +118,7 @@ def low_performing_products(transactions, threshold=10): # Threshold modified to
 
 def generate_sales_report(transactions, enriched_transactions, output_file='output/sales_report.txt'):
     try:
+        # This line requires 'import os' which is now added at the top
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
         
         # Calculate Metrics
