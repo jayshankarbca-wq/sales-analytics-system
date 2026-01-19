@@ -1,6 +1,10 @@
-import requests
+# file_handler.py
+# Handles all file reading, parsing, and data cleaning operations.
+# Created for Sales Analytics System Assignment.import requests
 
 def fetch_all_products():
+# Connects to DummyJSON API to retrieve product categories.
+# Timeout is set to default to prevent hanging.
     """Fetches all products from DummyJSON API."""
     try:
         response = requests.get('https://dummyjson.com/products?limit=100')
