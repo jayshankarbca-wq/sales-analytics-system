@@ -41,3 +41,11 @@ A Python-based system to analyze sales data, enrich it with external API data fr
    Round 5: Update the handler.py
    Round 6: Update the main.py
    Round 7: Added the .gitignore
+   ## Key Features
+- **Robust Error Handling:** Manages missing files and API failures gracefully.
+- **Data Enrichment:** Merges local sales data with remote API contexts.
+- **Automated Reporting:** Produces ready-to-print business insights.
+**Example Usage:**
+1. Run `python main.py`
+2. Enter `y` to apply filters.
+3. Enter `North` to see sales for the North region only.
