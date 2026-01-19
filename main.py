@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from utils.file_handler import read_sales_data, parse_transactions, validate_and_filter, save_enriched_data
 from utils.data_processor import generate_sales_report
 from utils.api_handler import fetch_all_products, create_product_mapping, enrich_sales_data
