@@ -1,0 +1,55 @@
+SALES ANALYTICS REPORT
+Generated: 2025-01-19 15:30:00
+Records Processed: 56
+==================================================
+
+OVERALL SUMMARY
+Total Revenue: 3,412,890.00
+Total Transactions: 56
+Average Order Value: 60,944.46
+Date Range: 2024-12-01 to 2024-12-30
+
+REGION-WISE PERFORMANCE
+Region          Sales           % of Total      Transactions   
+------------------------------------------------------------
+North           2,105,430.00    61.69           21             
+West            540,210.00      15.83           14             
+South           450,120.00      13.19           10             
+East            317,130.00      9.29            11             
+
+TOP 5 PRODUCTS
+Rank  Product Name                   Quantity   Revenue        
+1     Laptop,Premium                 27         1,980,120.00   
+2     Monitor                        30         345,200.00     
+3     Laptop                         3          125,001.00     
+4     Monitor,LED                    12         116,064.00     
+5     External Hard Drive,1TB        16         13,920.00      
+
+TOP 5 CUSTOMERS
+Rank  Customer ID     Total Spent     Orders    
+1     C004            825,359.00      2         
+2     C010            756,940.00      2         
+3     C017            762,460.00      1         
+4     C013            68,086.00       3         
+5     C008            61,488.00       3         
+
+DAILY SALES TREND
+Date            Revenue         Tx Count   Unique Cust
+2024-12-01      119,461.00      3          3         
+2024-12-02      807,113.00      5          5         
+2024-12-03      5,654.00        3          3         
+2024-12-07      18,901.00       6          6         
+2024-12-15      818,960.00      1          1         
+2024-12-22      67,511.00       6          6         
+2024-12-29      3,155.00        2          2         
+
+PRODUCT PERFORMANCE ANALYSIS
+Best Selling Day: 2024-12-15 (Revenue: 818,960.00)
+Low Performing Products:
+- USB Cable: 24 sold
+- Webcam: 18 sold
+- Mouse: 35 sold
+
+API ENRICHMENT SUMMARY
+Total Enriched: 56
+Success Rate: 100.00%
